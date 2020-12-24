@@ -30,8 +30,6 @@ class Buscador extends React.Component {
                     <tbody>
                         <tr>
                             <td>
-                            
-                            <img className="imagen" src={Logo} alt=""/>
                             <p className="letras letras-tam">Machine Learning For Scientific Documents</p>
                             
                             <input className="tam-bus" id="search" type="text" name="query" placeholder="Buscar artículos: Entre una o más palabras" onChange={this.handleChange}/>
